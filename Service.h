@@ -15,7 +15,7 @@ public:
 		rep.store(tr);
 	}
 
-	vector<Tractor> getAll()
+	vector<Tractor>& getAll()
 	{
 		return rep.getAll();
 	}
