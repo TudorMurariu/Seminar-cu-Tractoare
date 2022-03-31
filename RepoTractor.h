@@ -13,7 +13,7 @@ public:
 		List.push_back(tr);
 	}
 
-	vector<Tractor>& getAll()
+	vector<Tractor> getAll()
 	{
 		return List;
 	}
