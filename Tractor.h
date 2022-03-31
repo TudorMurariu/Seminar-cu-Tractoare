@@ -10,6 +10,12 @@ private:
 	int an;
 
 public:
+	Tractor(string nume,int an)
+	{
+		this->nume = nume;
+		this->an = an;
+	}
+
 	string getNume()
 	{
 		return nume;

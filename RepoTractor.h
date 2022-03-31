@@ -10,7 +10,7 @@ private:
 public:
 	void store(Tractor tr)
 	{
-
+		List.push_back(tr);
 	}
 
 	vector<Tractor> getAll()
@@ -20,3 +20,6 @@ public:
 	
 };
 
+
+
+void test_repo();
